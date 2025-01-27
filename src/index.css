@@ -1,0 +1,33 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    ::-webkit-scrollbar {
+      width: 4px;
+    }
+    ::-webkit-scrollbar-track {
+      background: black;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: white;
+    }
+  }
+
+  .ticker-container {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .ticker-wrapper {
+    display: flex;
+    gap: 10px;
+    white-space: nowrap;
+    will-change: transform;
+  }
+  
