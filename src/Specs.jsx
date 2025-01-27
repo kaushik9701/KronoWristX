@@ -3,12 +3,8 @@ import React from "react";
 const ProductPage = () => {
   return (
     <div className="flex flex-col sm:flex-row h-screen bg-black text-white">
-      {/* Left Section - Image or 3D Model */}
       <div className="w-full sm:w-2/5 bg-black flex justify-center items-center">
-        {/* You can add your image or 3D model here */}
       </div>
-
-      {/* Right Section - Text and Product Details */}
       <div className="w-full sm:w-3/5 p-8 sm:p-16 flex flex-col justify-center">
         <h1 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">
           KRONO Wrist X
